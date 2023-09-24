@@ -30,9 +30,11 @@ const switchTheme = () => {
 }
 </script>
 <template>
-  <button @click="switchTheme"
-          class="absolute top-4 w-full cursor-pointer font-bold dark:text-white"
-  >
-    {{light ? 'dark' : 'light'}} theme
-  </button>
+  <div class="absolute top-4 flex justify-center w-full">
+    <button @click="switchTheme"
+            class="cursor-pointer font-bold dark:text-white"
+    >
+      {{light ? 'Dark' : 'Light'}} Theme
+    </button>
+  </div>
 </template>
