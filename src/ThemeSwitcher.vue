@@ -31,8 +31,8 @@ const switchTheme = () => {
 </script>
 <template>
   <button @click="switchTheme"
-          class="absolute top-4 right-4 cursor-pointer font-bold dark:text-white"
+          class="absolute top-4 w-full cursor-pointer font-bold dark:text-white"
   >
-    {{light ? 'Dark' : 'Light'}} theme
+    {{light ? 'dark' : 'light'}} theme
   </button>
 </template>
