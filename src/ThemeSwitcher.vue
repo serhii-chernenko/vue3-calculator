@@ -30,7 +30,7 @@ const switchTheme = () => {
 }
 </script>
 <template>
-  <div class="absolute top-4 flex justify-center w-full">
+  <div class="flex justify-center w-full p-4">
     <button @click="switchTheme"
             class="cursor-pointer font-bold dark:text-white"
     >
