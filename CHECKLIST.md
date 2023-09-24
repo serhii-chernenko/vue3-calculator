@@ -1,0 +1,7 @@
+- [ ] The calculator has a display area that shows the current calculation or result.
+- [ ] The calculator has clear buttons for each of the number from 0-9.
+- [ ] The calculator has clear buttons for each of basic arithmetic operations.
+- [ ] The calculator should have clear buttons clearing the current calculation, punctuation and calculate the result.
+- [ ] Users are able to input numbers and decimal points using the calculator's buttons.
+- [ ] Users are able to perform basic arithmetic operations using the calculator's buttons (`+`,`-`,`x`,`/`).
+- [ ] Users are able to clear the calculator's display and reset the calculation.
